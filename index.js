@@ -20,10 +20,10 @@ submitBtn.addEventListener("click",()=>{
 backBtn.addEventListener("click",()=>{
     console.log("bfi")
 
-    mainBlock.style.cssText+='animation:rotate 2s'
+    userBlock.style.cssText+='animation:rotate 2s'
 
-    userBlock.style.cssText+='display:none'
-    mainBlock.style.cssText+='display:flex'
+    setTimeout(()=>userBlock.style.cssText+='display:none',0)
+    setTimeout(()=>mainBlock.style.cssText+='display:flex',0)
     err.textContent=""
 
 })

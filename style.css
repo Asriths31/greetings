@@ -17,6 +17,7 @@ body{
     border-radius: 20px;
     color: #ffffff;
     box-shadow: 9px 9px 6px #000000;
+    animation: rotate1 2s;
 
 }
 #err{
@@ -75,19 +76,21 @@ button:focus{
 }
 
 @keyframes rotate {
-    from{
-        transform: rotateY(90deg);
+    0%{
+        transform: rotateY(-100deg);
     }
-    to{
+  
+    100%{
         transform: rotateY(0deg);
     }
 }
 @keyframes rotate1 {
-    from{
-        transform: rotateY(0deg);
+    0%{
+        transform: rotateY(100deg);
     }
-    to{
-        transform: rotateY(90deg);
+   
+    100%{
+        transform: rotateY(0deg);
     }
 }
 
