@@ -5,7 +5,7 @@ body{
 }
 .main-block{
     display: flex;
-    background-color: #004080 ;
+    background-color: #1e568d ;
     flex-direction: column;
     gap:14px;
     justify-content: space-between;
@@ -25,7 +25,7 @@ body{
 .user-block{
     display: none;
     color: #ffffff;
-    background-color: #004080 ;
+    background-color: #1e568d ;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -96,13 +96,13 @@ button:focus{
 
 @media only screen and (max-width:600px) {
     .main-block{
-        width: 80vw;
+        width: 90vw;
     }
     .user-block{
-        width: 80vw;
+        width: 90vw;
     }
     input,button{
-        width: 50vw;
+        width: 58vw;
     }
     
 }
