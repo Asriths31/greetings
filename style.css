@@ -5,7 +5,7 @@ body{
 }
 .main-block{
     display: flex;
-    background-color: #1e568d ;
+    background-color: #5fa3e7 ;
     flex-direction: column;
     gap:14px;
     justify-content: space-between;
@@ -25,7 +25,7 @@ body{
 .user-block{
     display: none;
     color: #ffffff;
-    background-color: #1e568d ;
+    background-color: #5fa3e7 ;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
